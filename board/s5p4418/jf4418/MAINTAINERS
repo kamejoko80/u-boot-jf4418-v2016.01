@@ -1,0 +1,6 @@
+JF4418 BOARD
+M:  HyejungKown <cjscld15@nexell.co.kr>
+S:  Maintained
+F:  board/s5p4418/jf4418/
+F:  include/configs/s5p4418_jf4418.h
+F:  configs/s5p4418_jf4418_defconfig

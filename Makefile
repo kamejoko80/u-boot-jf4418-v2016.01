@@ -915,7 +915,7 @@ endif
 ifdef CONFIG_ARCH_S5P4418
 BINGEN = tools/nexell/SECURE_BINGEN
 
-NSIH ?= tools/nexell/nsih/nanopi2.txt
+NSIH ?= tools/nexell/nsih/jf4418.txt
 BINGEN_FLAGS := -l 0x74c00000 -e 0x74c00000 -n $(NSIH)
 
 bootloader.img: u-boot.bin $(NSIH) tools

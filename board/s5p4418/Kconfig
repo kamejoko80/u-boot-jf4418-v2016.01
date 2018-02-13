@@ -21,6 +21,11 @@ config TARGET_NANOPI2
 	help
 	  Support for FriendlyElec boards based on S5P4418.
 
+config TARGET_JF4418
+	bool "JF4418"
+	help
+	Support for PDTech boards based on S5P4418.
+
 config TARGET_S5P4418_NAVI_REF
 	bool "S5P4418_NAVI_REF"
 	help
@@ -72,3 +77,4 @@ source "board/s5p4418/ff_voice/Kconfig"
 source "board/s5p4418/zh_dragon/Kconfig"
 source "board/s5p4418/daudio_covi/Kconfig"
 source "board/s5p4418/nanopi2/Kconfig"
+source "board/s5p4418/jf4418/Kconfig"

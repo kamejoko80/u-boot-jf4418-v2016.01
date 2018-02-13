@@ -1,0 +1,13 @@
+if TARGET_JF4418
+
+config SYS_BOARD
+	default "jf4418"
+
+config SYS_VENDOR
+	default "s5p4418"
+
+config SYS_CONFIG_NAME
+	default "s5p4418_jf4418"
+
+endif
+
