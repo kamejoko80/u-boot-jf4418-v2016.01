@@ -95,7 +95,8 @@ void bd_base_rev_init(void)
 /* To override __weak symbols */
 u32 get_board_rev(void)
 {
-	return (base_rev << 8) | pcb_rev;
+	//return (base_rev << 8) | pcb_rev;
+        return 0x01;
 }
 
 const char *get_board_name(void)
